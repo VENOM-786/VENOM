@@ -3,6 +3,6 @@ os.system('git pull')
  
 VENOM=platform.architecture()[0]
 if VENOM=="32bit":
-    print(' [•] 32Bit Coming Soon..!')
+    __import__("BSDK32")
 elif VENOM=="64bit":
      __import__("BSDK")
