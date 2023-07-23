@@ -1,5 +1,4 @@
 import os,platform
-exit(' Wait Bro...! Tool On updating ')
 os.system('git pull')
  
 VENOM=platform.architecture()[0]
