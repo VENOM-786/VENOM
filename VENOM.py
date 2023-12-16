@@ -9,6 +9,6 @@ if g == '1':
     elif VENOM=="64bit":__import__("BSDK")
 elif g == '2':
     VENOM=platform.architecture()[0]
-    if VENOM=="32bit":__import__("BSDK32")
-    elif VENOM=="64bit":__import__("BSDK")
+    if VENOM=="32bit":__import__("LPC32")
+    elif VENOM=="64bit":__import__("LPC")
 else:exit(' choose wrong ')
